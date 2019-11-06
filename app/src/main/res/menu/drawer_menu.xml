@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Calculator">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_standard"
+                android:icon="@drawable/ic_standard"
+                android:title="Standard" />
+            <item
+                android:id="@+id/nav_scientific"
+                android:icon="@drawable/ic_scientific"
+                android:title="Scientific" />
+            <item
+                android:id="@+id/nav_programming"
+                android:icon="@drawable/ic_programming"
+                android:title="Programming" />
+            <item
+                android:id="@+id/nav_datecal"
+                android:icon="@drawable/ic_calender"
+                android:title="Date Calculation" />
+
+        </group>
+    </item>
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+        </menu>
+    </item>
+-->
+</menu>
